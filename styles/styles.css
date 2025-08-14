@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header */
+#header {
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #ffcc00;
+}
+
+#header h1 {
+  margin: 0;
+}
+
+#header p {
+  margin-top: 10px;
+}
+
+/* Navigation */
+#navbar {
+  background-color: #003060;
+}
+
+#navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#navbar ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+#navbar ul li a:hover {
+  background-color: #ffcc00;
+  color: #003060;
+}
+
+/* Sections and Cards (Box Model demo) */
+.card {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+  color: #004080;
+}
+
+/* Table */
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-table th, 
+#data-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#data-table th {
+  background-color: #004080;
+  color: white;
+}
+
+#data-table caption {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Buttons */
+.btn {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #003060;
+}
+
+/* Footer */
+#footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
