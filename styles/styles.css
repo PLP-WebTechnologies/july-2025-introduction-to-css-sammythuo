@@ -89,22 +89,6 @@ h2 {
   margin-bottom: 10px;
   font-weight: bold;
 }
-
-/* Buttons */
-.btn {
-  background-color: #004080;
-  color: white;
-  border: none;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background-color: #003060;
-}
-
 /* Footer */
 #footer {
   background-color: #004080;
